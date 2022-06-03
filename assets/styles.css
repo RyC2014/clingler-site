@@ -3,5 +3,34 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-container {
+    display: flex;
+    
+}
+
+ul {
+    text-decoration: none;
+}
+
+a {
+    padding-left: 60px;
+
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav-container li {
+    list-style-type: none;
+    text-decoration: none;
 }
