@@ -97,7 +97,7 @@ a:link {
 }
 
 .gallery > img {
-    width: 25%;
+    width: 50%;
 }
 
 
@@ -127,6 +127,16 @@ a:link {
     a {
 
         padding-left: 0;
+    }
+
+    .work-right {
+
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    .gallery > img {
+        width: 100%;
     }
 
 }
